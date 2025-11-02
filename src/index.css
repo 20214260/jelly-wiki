@@ -2,25 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 🌍 기본 스타일 초기화 */
-html, body, #root {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background: black;
-}
-
-/* 🪩 부드러운 렌더링 설정 */
-canvas {
-  display: block;
-  width: 100%;
-  height: 100%;
-  image-rendering: high-quality;
-}
-
-/* ✨ 선택사항: 전체 배경에 살짝 그라디언트 넣고 싶을 때 */
+/* 전역 스타일 (선택사항) */
 body {
-  background: radial-gradient(ellipse at center, #020202 0%, #000000 80%);
+  font-family: 'Pretendard', sans-serif;
+  background-color: #f8f8f8;
 }
+
